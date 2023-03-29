@@ -56,7 +56,7 @@ const sketch = ({ context, canvas }) => {
     const rotateY = (deltaTime / ROTATE_TIME) * Math.PI * 2;
 
     mesh.rotateOnWorldAxis(xAxis, rotateX);
-    mesh.rotateOnWorldAxis(yAxis, rotateY);
+    // mesh.rotateOnWorldAxis(yAxis, rotateY);
   };
 
   // Lifecycle
